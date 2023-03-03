@@ -1,12 +1,21 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class GUI {                           //Creating class GUI (Guide User Interface)
     JFrame frame;                            //Creating a window inside GUI
-    JPanel panel;                            //Creating panel inside GUI (to use later)
+    JPanel settings_panel;                   //Creating panel inside GUI for adjusting variables
+    JPanel animation_panel;                  //Creating panel inside GUI for showing animations
+    JTextField m;
+    JTextField b;
+    JTextField y0;
 
     public GUI(){
         frame = new JFrame();
-        panel = new JPanel();
+        settings_panel = new JPanel();
+        animation_panel = new JPanel();
+
+        Color main_color = new Color(0x333333);
+        Color settings_color = new Color(0x666666);
 
         ImageIcon icon = new ImageIcon("simulator/Resources/parachute.png");
 
@@ -15,8 +24,31 @@ public class GUI {                           //Creating class GUI (Guide User In
         frame.setSize(1000, 500);
         frame.setTitle("Skydiving - Simulator");
         frame.setIconImage(icon.getImage());
+        frame.setBackground(main_color);
+        frame.add(settings_panel);
+        frame.add(animation_panel);
 
+        settings_panel.setBackground(settings_color);
+        settings_panel.setBounds(0, 0, 200, frame.getHeight());
 
+        animation_panel.setBackground(main_color);
+        animation_panel.setBounds(200, 0, frame.getWidth()-200, frame.getHeight());
+
+        InitializePanels();
+
+    }
+
+    private void InitializePanels(){
+        Dimension dimension_text_field = new Dimension(180, 30);
+
+        JLabel label_m = new JLabel("Object mass: ");
+        settings_panel.add(label_m);
+
+        JLabel label_b = new JLabel("Air resistance: ");
+        settings_panel.add(label_b);
+
+        JLabel label_y0 = new JLabel("Start height: ");
+        settings_panel.add(label_y0);
     }
 
 }

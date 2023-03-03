@@ -8,9 +8,13 @@ public class GUI {                           //Creating class GUI (Guide User In
         frame = new JFrame();
         panel = new JPanel();
 
+        ImageIcon icon = new ImageIcon("simulator/Resources/parachute.png");
+
         frame.setVisible(true);                                         //Settings for frame
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1000, 500);
+        frame.setTitle("Skydiving - Simulator");
+        frame.setIconImage(icon.getImage());
 
 
     }

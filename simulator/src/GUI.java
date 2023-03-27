@@ -100,4 +100,30 @@ public class GUI {                           //Creating class GUI (Guide User In
             return 0;
         }
     }
+
+    public int get_b() {
+
+        String b = txt_field_b.getText();
+
+        try {
+            int b_int = Integer.parseInt(b);
+            return b_int;
+        } catch (NumberFormatException e) {
+            showMessageDialog(null, "Value of air resistance is not given in correct way. Please, use only numbers - no whitespaces or letters");
+            return 0;
+        }
+    }
+
+    public int get_y0() {
+
+        String y0 = txt_field_y0.getText();
+
+        try {
+            int y0_int = Integer.parseInt(y0);
+            return y0_int;
+        } catch (NumberFormatException e) {
+            showMessageDialog(null, "Value of mass is not given in correct way. Please, use only numbers - no whitespaces or letters");
+            return 0;
+        }
+    }
 }

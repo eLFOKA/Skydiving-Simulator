@@ -69,7 +69,7 @@ public class GUI {                           //Creating class GUI (Guide User In
         txt_field_b.setPreferredSize(dimension_text_field);
         settings_panel.add(txt_field_b);
 
-        JLabel label_y0 = new JLabel("Start height: ");
+        JLabel label_y0 = new JLabel("Initial height: ");
         settings_panel.add(label_y0);
 
         txt_field_y0 = new JTextField();
@@ -122,7 +122,7 @@ public class GUI {                           //Creating class GUI (Guide User In
             int y0_int = Integer.parseInt(y0);
             return y0_int;
         } catch (NumberFormatException e) {
-            showMessageDialog(null, "Value of mass is not given in correct way. Please, use only numbers - no whitespaces or letters");
+            showMessageDialog(null, "Value of initial height is not given in correct way. Please, use only numbers - no whitespaces or letters");
             return 0;
         }
     }

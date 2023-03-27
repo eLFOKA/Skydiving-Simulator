@@ -1,7 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class GUI {                           //Creating class GUI (Guide User Interface)
+public class GUI implements ActionListener {                           //Creating class GUI (Guide User Interface)
     JFrame frame;                            //Creating a window inside GUI
     JPanel settings_panel;                   //Creating panel inside GUI for adjusting variables
     JPanel animation_panel;                  //Creating panel inside GUI for showing animations
@@ -44,11 +46,29 @@ public class GUI {                           //Creating class GUI (Guide User In
         JLabel label_m = new JLabel("Object mass: ");
         settings_panel.add(label_m);
 
+        JTextField txt_field_m = new JTextField();
+
+        txt_field_m.setPreferredSize(dimension_text_field);
+        settings_panel.add(txt_field_m);
+
         JLabel label_b = new JLabel("Air resistance: ");
         settings_panel.add(label_b);
 
+        JTextField txt_field_b = new JTextField();
+        txt_field_b.setPreferredSize(dimension_text_field);
+        settings_panel.add(txt_field_b);
+
         JLabel label_y0 = new JLabel("Start height: ");
         settings_panel.add(label_y0);
+
+        JTextField txt_field_y0 = new JTextField();
+        txt_field_y0.setPreferredSize(dimension_text_field);
+        settings_panel.add(txt_field_y0);
     }
 
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
+    }
 }

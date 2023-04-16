@@ -2,8 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import static javax.swing.JOptionPane.showMessageDialog;
 
-public class GUI {                           //Creating class GUI (Guide User Interface)
-    JFrame frame;                            //Creating a window inside GUI
+public class GUI extends JFrame{                           //Creating class GUI (Guide User Interface)
+                                                             //Creating a window inside GUI
     JPanel settings_panel;                   //Creating panel inside GUI for adjusting variables
     JPanel animation_panel;                  //Creating panel inside GUI for showing animations
     JTextField txt_field_m;
@@ -12,7 +12,9 @@ public class GUI {                           //Creating class GUI (Guide User In
     public JButton run_button;
 
     public GUI() {
-        frame = new JFrame();
+
+        this.setLayout(new BorderLayout());
+
         settings_panel = new JPanel();
         animation_panel = new JPanel();
 
@@ -21,31 +23,35 @@ public class GUI {                           //Creating class GUI (Guide User In
 
         ImageIcon icon = new ImageIcon("simulator/Resources/parachute.png");
 
-        frame.setVisible(true);                                         //Settings for frame
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(1000, 500);
-        frame.setTitle("Skydiving - Simulator");
-        frame.setIconImage(icon.getImage());
-        frame.setBackground(main_color);
-        frame.add(settings_panel);
-        frame.add(animation_panel);
+        this.setVisible(true);                                         //Settings for frame
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setSize(1000, 500);
+        this.setTitle("Skydiving - Simulator");
+        this.setIconImage(icon.getImage());
+        this.setBackground(main_color);
+
+        this.add(settings_panel, BorderLayout.WEST);
+        this.add(animation_panel, BorderLayout.CENTER);
 
         InitializePanels();
 
         settings_panel.setBackground(settings_color);
-        settings_panel.setBounds(0, 0, 200, frame.getHeight());
+        settings_panel.setBounds(0, 0, 200, this.getHeight());
 
         animation_panel.setBackground(main_color);
-        animation_panel.setBounds(200, 0, frame.getWidth() - 200, frame.getHeight());
+        animation_panel.setBounds(200, 0, this.getWidth() - 200, this.getHeight());
 
-        SwingUtilities.updateComponentTreeUI(frame);
+
+        SwingUtilities.updateComponentTreeUI(this);
     }
 
     private void InitializePanels() {
-        Dimension dimension_text_field = new Dimension(150, 30);
+
+        settings_panel.setLayout(new BoxLayout(settings_panel, BoxLayout.Y_AXIS));
+        settings_panel.setBorder(BorderFactory.createEmptyBorder(20,20,20,20));
+        Dimension dimension_text_field = new Dimension(200, 30);
 
         ImageIcon run_icon = new ImageIcon("simulator/Resources/run.png");
-
 
         Image img = run_icon.getImage();
         Image newimg;
@@ -59,6 +65,8 @@ public class GUI {                           //Creating class GUI (Guide User In
         txt_field_m = new JTextField();
 
         txt_field_m.setPreferredSize(dimension_text_field);
+        txt_field_m.setSize(dimension_text_field);
+        txt_field_m.setMaximumSize(dimension_text_field);
         settings_panel.add(txt_field_m);
 
 
@@ -67,6 +75,8 @@ public class GUI {                           //Creating class GUI (Guide User In
 
         txt_field_b = new JTextField();
         txt_field_b.setPreferredSize(dimension_text_field);
+        txt_field_b.setSize(dimension_text_field);
+        txt_field_b.setMaximumSize(dimension_text_field);
         settings_panel.add(txt_field_b);
 
         JLabel label_y0 = new JLabel("Initial height: ");
@@ -74,8 +84,9 @@ public class GUI {                           //Creating class GUI (Guide User In
 
         txt_field_y0 = new JTextField();
         txt_field_y0.setPreferredSize(dimension_text_field);
+        txt_field_y0.setSize(dimension_text_field);
+        txt_field_y0.setMaximumSize(dimension_text_field);
         settings_panel.add(txt_field_y0);
-
 
         run_button = new JButton();
         run_button.setIcon(run_icon);
@@ -86,41 +97,42 @@ public class GUI {                           //Creating class GUI (Guide User In
         run_button.setCursor(new Cursor(Cursor.HAND_CURSOR));
         settings_panel.add(run_button);
 
+
     }
 
-    public int get_m() {
+    public double get_m() {
 
         String m = txt_field_m.getText();
 
         try {
-            int m_int = Integer.parseInt(m);
-            return m_int;
+            double m_double = Double.parseDouble(m);
+            return m_double;
         } catch (NumberFormatException e) {
             showMessageDialog(null, "Value of mass is not given in correct way. Please, use only numbers - no whitespaces or letters");
             return 0;
         }
     }
 
-    public int get_b() {
+    public double get_b() {
 
         String b = txt_field_b.getText();
 
         try {
-            int b_int = Integer.parseInt(b);
-            return b_int;
+            double b_double = Double.parseDouble(b);
+            return b_double;
         } catch (NumberFormatException e) {
             showMessageDialog(null, "Value of air resistance is not given in correct way. Please, use only numbers - no whitespaces or letters");
             return 0;
         }
     }
 
-    public int get_y0() {
+    public double get_y0() {
 
         String y0 = txt_field_y0.getText();
 
         try {
-            int y0_int = Integer.parseInt(y0);
-            return y0_int;
+            double y0_double = Double.parseDouble(y0);
+            return y0_double;
         } catch (NumberFormatException e) {
             showMessageDialog(null, "Value of initial height is not given in correct way. Please, use only numbers - no whitespaces or letters");
             return 0;

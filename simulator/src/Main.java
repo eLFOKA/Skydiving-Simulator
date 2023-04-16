@@ -6,5 +6,4 @@ public class Main {
         GUI gui = new GUI();
         Run run = new Run(gui);
     }
-
 }

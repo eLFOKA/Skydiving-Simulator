@@ -6,9 +6,9 @@ import static javax.swing.JOptionPane.showMessageDialog;
 public class Run implements ActionListener {
 
     GUI gui;
-    private int m;
-    private int b;
-    private int y0;
+    private double m;
+    private double b;
+    private double y0;
 
     public Run(GUI gui_ex) {
         gui = gui_ex;

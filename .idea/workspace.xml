@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6256a894-26d4-4538-a266-666e7c9160f7" name="Changes" comment="try" />
+    <list default="true" id="6256a894-26d4-4538-a266-666e7c9160f7" name="Changes" comment="try">
+      <change afterPath="$PROJECT_DIR$/simulator/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulator/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulator/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulator/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulator/Run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulator/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/Main.java" afterDir="false" />
+    </list>
+    <list id="0f6aa08d-483d-4bcb-bb22-08b87d794522" name="Changes by lenovo" comment="">
+      <change beforePath="$PROJECT_DIR$/simulator/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulator/src/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/Run.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,22 +31,57 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/simulator/src/GUI.java">
+      <ranges>
+        <range start1="4" end1="6" start2="4" end2="6" changelist="6256a894-26d4-4538-a266-666e7c9160f7" />
+        <range start1="14" end1="15" start2="14" end2="17" changelist="6256a894-26d4-4538-a266-666e7c9160f7" />
+        <range start1="23" end1="31" start2="25" end2="34" changelist="6256a894-26d4-4538-a266-666e7c9160f7" />
+        <range start1="35" end1="36" start2="38" end2="39" changelist="6256a894-26d4-4538-a266-666e7c9160f7" />
+        <range start1="38" end1="39" start2="41" end2="42" changelist="6256a894-26d4-4538-a266-666e7c9160f7" />
+        <range start1="40" end1="41" start2="43" end2="45" changelist="6256a894-26d4-4538-a266-666e7c9160f7" />
+        <range start1="44" end1="45" start2="48" end2="52" changelist="6256a894-26d4-4538-a266-666e7c9160f7" />
+        <range start1="48" end1="49" start2="55" end2="55" changelist="0f6aa08d-483d-4bcb-bb22-08b87d794522" />
+        <range start1="61" end1="61" start2="67" end2="69" changelist="6256a894-26d4-4538-a266-666e7c9160f7" />
+        <range start1="69" end1="69" start2="77" end2="79" changelist="6256a894-26d4-4538-a266-666e7c9160f7" />
+        <range start1="76" end1="76" start2="86" end2="88" changelist="6256a894-26d4-4538-a266-666e7c9160f7" />
+        <range start1="78" end1="79" start2="90" end2="90" changelist="0f6aa08d-483d-4bcb-bb22-08b87d794522" />
+        <range start1="87" end1="87" start2="98" end2="99" changelist="6256a894-26d4-4538-a266-666e7c9160f7" />
+        <range start1="90" end1="91" start2="102" end2="103" changelist="0f6aa08d-483d-4bcb-bb22-08b87d794522" />
+        <range start1="95" end1="97" start2="107" end2="109" changelist="0f6aa08d-483d-4bcb-bb22-08b87d794522" />
+        <range start1="103" end1="104" start2="115" end2="116" changelist="0f6aa08d-483d-4bcb-bb22-08b87d794522" />
+        <range start1="108" end1="110" start2="120" end2="122" changelist="0f6aa08d-483d-4bcb-bb22-08b87d794522" />
+        <range start1="116" end1="117" start2="128" end2="129" changelist="0f6aa08d-483d-4bcb-bb22-08b87d794522" />
+        <range start1="121" end1="123" start2="133" end2="135" changelist="0f6aa08d-483d-4bcb-bb22-08b87d794522" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2MVmdKSDtQWoMbN0hiRK7nct2iw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Ja\STUDIA\4 Semestr\MMM - projekt\Skydiving-Simulator\simulator\Resources" />
@@ -83,5 +129,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="try" />
     <option name="LAST_COMMIT_MESSAGE" value="try" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/out/production/simulator/Run.class</url>
+          <line>19</line>
+          <properties class="Run" method="actionPerformed">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

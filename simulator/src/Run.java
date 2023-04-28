@@ -12,7 +12,7 @@ public class Run implements ActionListener {
 
     public Run(GUI gui_ex) {
         gui = gui_ex;
-        gui.run_button.addActionListener(this);
+        gui.runButton.addActionListener(this);
     }
 
     @Override

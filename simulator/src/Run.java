@@ -13,6 +13,7 @@ public class Run implements ActionListener {
     public Run(GUI gui_ex) {
         gui = gui_ex;
         gui.runButton.addActionListener(this);
+        AnimatedDr animation = new AnimatedDr(gui);
     }
 
     @Override

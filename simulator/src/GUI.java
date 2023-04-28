@@ -10,6 +10,7 @@ public class GUI extends JFrame {
     private JTextField textField2;
     private JTextField textField3;
     public JButton runButton;
+    public JPanel drawingPanel;
 
     public GUI(){
 

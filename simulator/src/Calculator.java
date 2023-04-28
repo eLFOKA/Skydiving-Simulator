@@ -12,13 +12,13 @@ public class Calculator {
         m = m1;
     }
 
-    public double GetY(double t){
+    public double GetYwithEQ(double t){
         double y = y0 - ((Math.log(Math.cosh(Math.sqrt(b)*Math.sqrt(g)*Math.sqrt(m)*t)))/(b));
 
         return y;
     }
 
-    public double GetT(double y){
+    public double GetTwithEQ(double y){
         double t = acosh(Math.exp(b*y0-b*y))/(Math.sqrt(b)*Math.sqrt(g)*Math.sqrt(m));
 
         return t;

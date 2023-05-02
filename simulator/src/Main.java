@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         GUI gui = new GUI();
-        Run run = new Run(gui);
+        AnimatedDr animation = new AnimatedDr(gui);
+        gui.runButton.addActionListener(animation);
     }
 }

@@ -11,6 +11,11 @@ public class AnimatedDr extends JPanel implements ActionListener {            //
     private int Ypos = 0;
     private double gr = 9.81;
     private Timer timer;
+    Graphics gcur;
+
+    private double m;
+    private double b;
+    private double y0;
 
     private GUI gui;
 
@@ -21,7 +26,7 @@ public class AnimatedDr extends JPanel implements ActionListener {            //
         gui.drawingPanel.add(this);
     }
 
-    public void Start(double y0, double m, double b, Graphics g){
+    public void Start(double y0, double m, double b){
         int x = 100;
         int y = 30;         //Coordinates of pixel
         double e = 0;
@@ -36,7 +41,7 @@ public class AnimatedDr extends JPanel implements ActionListener {            //
             e_2=e_1;
             e_1=e;
             e=ans;
-            g.drawLine(x, y+(int)e_1, x, y+(int)e_2);
+            gcur.drawLine(x, y+(int)e_1, x, y+(int)e_2);
             timer = new Timer(T, this);
             timer.start();
         }
@@ -54,11 +59,19 @@ public class AnimatedDr extends JPanel implements ActionListener {            //
         }
 
         g.drawString("y = 0", 35, 435);
+        gcur = g;
 
+    }
+
+    private void GetVariables(GUI gui) {
+        m = gui.get_m();
+        b = gui.get_b();
+        y0 = gui.get_y0();
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-
+        GetVariables(gui);
+        Start(y0, m, b);
     }
 }

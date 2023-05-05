@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AnimatedDr extends JPanel implements ActionListener {            //Animated drawing
+public class Run extends JPanel implements ActionListener {            //Animated drawing
     private int height = 400;
     private int width = 100;
     private int sPer = 500;         //Sampling period
@@ -19,7 +19,7 @@ public class AnimatedDr extends JPanel implements ActionListener {            //
 
     private GUI gui;
 
-    public AnimatedDr(GUI ex_gui){
+    public Run(GUI ex_gui){
         gui = ex_gui;
         this.setSize(200, 450);
         this.setMinimumSize(new Dimension(200, 460));
@@ -34,7 +34,7 @@ public class AnimatedDr extends JPanel implements ActionListener {            //
         double e_2 = 0;     //Samples
         Calculator cal = new Calculator(y0, b, m);
         double border_prec = Math.round((cal.GetTwithEQ(y0))*1000/400);
-        int T = (int) border_prec;
+        int T = (int) Math.round(border_prec);
 
         for (int i = 0; i < 400; i++) {
             double ans = y0 - ((2*e_1*T-Math.sqrt(m*(-4*e_2*T+4*gr*T*T+m))+m)/(2*T));

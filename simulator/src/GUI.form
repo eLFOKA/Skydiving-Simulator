@@ -41,6 +41,7 @@
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="30" height="-1"/>
+                    <maximum-size width="50" height="50"/>
                   </grid>
                 </constraints>
                 <properties>
@@ -67,6 +68,7 @@
                 <constraints>
                   <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="30" height="-1"/>
+                    <maximum-size width="50" height="50"/>
                   </grid>
                 </constraints>
                 <properties>
@@ -77,6 +79,7 @@
                 <constraints>
                   <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="30" height="-1"/>
+                    <maximum-size width="50" height="50"/>
                   </grid>
                 </constraints>
                 <properties>
@@ -90,7 +93,9 @@
               </vspacer>
               <component id="1afd3" class="javax.swing.JButton" binding="runButton" default-binding="true">
                 <constraints>
-                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="100" height="80"/>
+                  </grid>
                 </constraints>
                 <properties>
                   <text value="Run"/>

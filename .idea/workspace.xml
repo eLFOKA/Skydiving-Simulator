@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6256a894-26d4-4538-a266-666e7c9160f7" name="Changes" comment="try">
-      <change afterPath="$PROJECT_DIR$/simulator/src/Animation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulator/AnimatedDr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulator/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulator/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulator/Animation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulator/Animation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/simulator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulator/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulator/src/AnimatedDr.java" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulator/src/GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/GUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulator/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulator/Run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulator/src/Animation.java" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/Animation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulator/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simulator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulator/src/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/Run.java" afterDir="false" />
     </list>
     <list id="0f6aa08d-483d-4bcb-bb22-08b87d794522" name="Changes by lenovo" comment="" />
     <option name="SHOW_DIALOG" value="false" />

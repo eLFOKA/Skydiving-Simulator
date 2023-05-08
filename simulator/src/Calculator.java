@@ -20,7 +20,7 @@ public class Calculator {
 
     public double GetTwithEQ(double y){
         double t = acosh(Math.exp(b*y0-b*y))/(Math.sqrt(b)*Math.sqrt(g)*Math.sqrt(m));
-
+        showMessageDialog(null, "t="+Double.toString(t));
         return t;
     }
 

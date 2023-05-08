@@ -3,6 +3,8 @@ public class Main {
         
         GUI gui = new GUI();
         Run run = new Run(gui);
-        gui.runButton.addActionListener(run);
+        Animation animation = new Animation(gui, run);
+        gui.runButton.addActionListener(animation);
+        gui.drawingPanel.add(run);
     }
 }

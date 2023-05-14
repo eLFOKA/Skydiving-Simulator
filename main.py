@@ -1,16 +1,33 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import PySimpleGUI as sg
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def calculate_eq(y0, m, b):
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def do_the_work(y0, m, b):
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+layout = [
+    [sg.Text("Initial height:")],
+    [sg.InputText(key='y0')],
+    [sg.Text("Mass:")],
+    [sg.InputText(key='m')],
+    [sg.Text("Air resistance:")],
+    [sg.InputText(key='b')],
+    [sg.Button("OK")]
+]
+
+window = sg.Window(title="Skydiving Simulator", layout=layout)
+
+while True:
+    event, values = window.read()
+
+    if event == "OK":
+        print(event, values['y0'], values['m'], values['b'])
+        do_the_work()
+
+    if event == sg.WIN_CLOSED:
+        break
+
+window.close()

@@ -1,122 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="6256a894-26d4-4538-a266-666e7c9160f7" name="Changes" comment="try">
-      <change afterPath="$PROJECT_DIR$/simulator/src/Animation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulator/AnimatedDr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulator/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulator/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulator/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulator/src/AnimatedDr.java" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulator/src/GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/GUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/src/Main.java" afterDir="false" />
-    </list>
-    <list id="0f6aa08d-483d-4bcb-bb22-08b87d794522" name="Changes by lenovo" comment="" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2MVmdKSDtQWoMbN0hiRK7nct2iw" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;215&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
-  }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Ja\STUDIA\4 Semestr\MMM - projekt\Skydiving-Simulator\simulator\Resources" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="simulator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Skydiving-Simulator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="6256a894-26d4-4538-a266-666e7c9160f7" name="Changes" comment="" />
-      <created>1677861211667</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1677861211667</updated>
-    </task>
-    <task id="LOCAL-00001" summary="try">
-      <created>1679923204807</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1679923204807</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
-    <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="try" />
-    <option name="LAST_COMMIT_MESSAGE" value="try" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand>
-      <path>
-        <item name="Skydiving-Simulator" type="b2602c69:ProjectViewProjectNode" />
-        <item name="Skydiving-Simulator" type="462c0819:PsiDirectoryNode" />
-      </path>
-      <path>
-        <item name="Skydiving-Simulator" type="b2602c69:ProjectViewProjectNode" />
-        <item name="Skydiving-Simulator" type="462c0819:PsiDirectoryNode" />
-        <item name="simulator" type="462c0819:PsiDirectoryNode" />
-      </path>
-    </expand>
-    <select />
   </component>
 </project>

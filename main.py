@@ -1,10 +1,14 @@
 import PySimpleGUI as sg
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy as sp
+from scipy.integrate import odeint
 
 
-def calculate_eq(y0, m, b):
+#def calculate_eq(y0, m, b):
 
 
-def do_the_work(y0, m, b):
+#def do_the_work(y0, m, b):
 
 
 

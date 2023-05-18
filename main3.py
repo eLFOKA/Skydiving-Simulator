@@ -59,7 +59,7 @@ def paint_charts(i):
 
     x = [0] * len(y)
     plt.subplot(1, 4, 1)
-    plt.plot(x, y[0:i], scalex=False, color='red')
+    plt.plot(x[0:i], y[0:i], scalex=False, color='red')
     plt.ylabel('y(t)')
     plt.xlabel('x(t) = 0')
     plt.xlim([-1, 1])
